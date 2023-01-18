@@ -44,4 +44,4 @@ steps:
     repository: 'javo3000/javoapi'
     command: 'buildAndPush'
     buildContext: './'
-    Dockerfile: 'Dockerfiles/api.Dockerfile'
+    Dockerfile: 'Dockerfile/api.Dockerfile'
