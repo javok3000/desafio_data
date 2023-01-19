@@ -17,7 +17,7 @@ configuracion = {
   'password':'d3s4fi0cruzr0j4grup02pass..?',
   'database':'dbtest',
   'client_flags': [mysql.connector.ClientFlag.SSL],
-  'ssl_ca': 'DigiCertGlobalRootCA.crt.pem'  
+  'ssl_ca': './DigiCertGlobalRootCA.crt.pem'  
 }
 conn = mysql.connector.connect(**configuracion)
 cursor = conn.cursor()
